@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Test from './practice/test'
+import Even from'./practice/even'
+import Odd from './practice/odd'
+import EvenOdd from './practice/even_odd'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>ODD AND EVEN NUMBERS</h1>
+      <Test/>
+      <Even/>
+      <Odd/>
+      <EvenOdd/>
+    </>
   );
+  
 }
 
 export default App;
