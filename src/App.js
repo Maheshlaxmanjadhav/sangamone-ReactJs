@@ -1,19 +1,18 @@
 import './App.css';
-import Test from './practice/test'
-import Even from'./practice/even'
-import Odd from './practice/odd'
-import EvenOdd from './practice/even_odd'
+import GetApi from './practice/WithoutCOM'
 function App() {
   return (
-    <>
-    <h1>ODD AND EVEN NUMBERS</h1>
-      <Test/>
-      <Even/>
-      <Odd/>
-      <EvenOdd/>
-    </>
+  <>
+  <div className='container'>
+    <div className='row'>
+      <div className='col'>
+        <h1 className='text-start'>USA POPULATION</h1>
+       <GetApi/>
+      </div>
+    </div>
+  </div>
+  </>
   );
-  
 }
 
 export default App;
